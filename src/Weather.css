@@ -32,14 +32,17 @@
 .Weather .temp{
     color: #202124;
     font-weight: bold;
-    font-size: 64px;
-    line-height: 64px;
+    font-size: 48px;
+    line-height: 56px;
     font-weight: 400;
+    display: inline;
 }
 
 .Weather img{
-    height: 64px;
-    margin-right: 10px;
+    height: 60px;
+    margin-top: unset;
+    vertical-align: top;
+    width: 60px;
     display: inline-block;
 }
 
