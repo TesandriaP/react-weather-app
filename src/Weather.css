@@ -38,11 +38,9 @@
     display: inline;
 }
 
-.Weather img{
-    height: 60px;
-    margin-top: unset;
-    vertical-align: top;
-    width: 60px;
+.Weather canvas{
+    margin-right: 5px;
+    margin-top: 5px;
     display: inline-block;
 }
 
