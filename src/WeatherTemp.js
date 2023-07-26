@@ -40,7 +40,7 @@ return(
               <a href="/" onClick={showCelsius}>
                   °C
                   </a>{""}
-                  | °C 
+                  | °F 
              </span>    
   </div>
 );
