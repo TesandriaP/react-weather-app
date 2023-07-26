@@ -12,6 +12,7 @@ export default function Weather
  function handleResponse(response) {
 setWeatherData({
     ready: true,
+    coords: response.data.coord,
     temperature: response.data.main.temp,
     date: new Date(response.data.dt * 1000),
     humidity: response.data.main.humidity,
@@ -54,7 +55,7 @@ function search(){
          </div>
         </form>
         <WeatherInfo data={weatherData} />
-        <WeatherForecast />
+        <WeatherForecast coords={weatherData.coords} />
         </div> 
      );  
     } else{
