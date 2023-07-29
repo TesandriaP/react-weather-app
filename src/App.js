@@ -11,7 +11,17 @@ export default function App() {
     />
      <footer>
       This project is made by Penn626 and is {""}
-     <a href="https://github.com/TesandriaP/react-weather-app" target="_blank" rel='noreferrer'>open-sourced</a>  on GitHub
+     <a href="https://github.com/TesandriaP/react-weather-app" target="_blank" rel="nopener noreferrer">
+      open-sourced on GitHub
+      </a>{" "}
+      and{" "}
+      <a 
+      href="https://remarkable-maamoul-d4cb9d.netlify.app/"
+      target="_blank"
+      rel="nopener noreferrer"
+      >
+        hosted on Netflify
+      </a>
      </footer>
      </div>
     </div>
